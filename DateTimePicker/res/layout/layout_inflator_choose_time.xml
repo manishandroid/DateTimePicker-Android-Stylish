@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center" >
+
+       
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Choose Time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/white" />
+
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/saparator3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll_top_bar"
+        android:background="@android:color/white" />
+
+  
+    
+    <LinearLayout
+        android:id="@+id/ll_time_container"
+                android:layout_height="310dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:padding="10dp"
+                android:visibility="visible">
+
+            <antistatic.spinnerwheel.WheelVerticalView android:id="@+id/hour"
+                    android:layout_height="match_parent"
+                    android:layout_width="50dp"
+                    android:layout_margin="10dp"/>
+            
+            <TextView 
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"/>
+            
+            <antistatic.spinnerwheel.WheelVerticalView android:id="@+id/mins"
+                    android:layout_height="match_parent"
+                    android:layout_width="50dp"
+                    android:layout_margin="10dp"/>
+            
+            <TextView 
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"/>
+            
+            <antistatic.spinnerwheel.WheelVerticalView android:id="@+id/amorpm"
+                    android:layout_height="match_parent"
+                    android:layout_width="50dp"
+                    android:layout_margin="10dp"/>
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/saparator5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+
+   
+
+    <RelativeLayout
+        android:id="@+id/ll_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_cal_yes" />
+
+        <TextView
+            android:id="@+id/saparator4"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignRight="@+id/imageView1"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:src="@drawable/ic_cal_no" />
+    </RelativeLayout>
+
+</LinearLayout>

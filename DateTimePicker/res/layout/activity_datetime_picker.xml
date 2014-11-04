@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/et_selectDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="Select Date"
+        android:drawableRight="@drawable/ic_calender"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="18sp" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_selectTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_selectDate"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="Select Time"
+        android:paddingLeft="10dp"
+        android:drawableRight="@drawable/ic_clock"
+        android:paddingRight="10dp"
+        android:textSize="18sp" >
+    </EditText>
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="red">#ff4040</color>
+    <color name="green">#41d29d</color>
+    <color name="blue">#57a7eb</color>
+    <color name="dark_blue">#1b4b73</color>
+     <color name="primary">#009688</color>
+    <color name="primary_pressed">#9999FF</color>
+    <color name="list_item_divider">#ccd6dc</color>
+    
+</resources>

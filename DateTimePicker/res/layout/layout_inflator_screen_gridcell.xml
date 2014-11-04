@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="50dp"
+    android:background="@color/blue"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/calendar_day_gridcell"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:button="@null"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF" >
+    </Button>
+
+</RelativeLayout>
